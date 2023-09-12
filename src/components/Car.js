@@ -8,7 +8,7 @@ const Car = (props) => {
 
   const id = props.match.params.id;
 
-  const car = cars.find((c) => c.id === Number(id));
+  const car = cars.find(c => c.id === Number(id));
 
   return (
     <Container maxWidth="sm" className="car-container">

@@ -1,5 +1,9 @@
 const state = {
     // Add user property here
+    user: {
+      username: 'Ruben',
+      email: 'test-user@example.com'
+  },
     cars: [
         {
            "id": 1,
